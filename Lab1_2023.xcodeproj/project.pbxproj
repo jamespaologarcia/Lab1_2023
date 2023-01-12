@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		F38F9845296F6D210007A9B9 /* Lab1_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F9844296F6D210007A9B9 /* Lab1_2023App.swift */; };
-		F38F9847296F6D210007A9B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F9846296F6D210007A9B9 /* ContentView.swift */; };
+		F38F9847296F6D210007A9B9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F9846296F6D210007A9B9 /* DetailView.swift */; };
 		F38F9849296F6D230007A9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38F9848296F6D230007A9B9 /* Assets.xcassets */; };
 		F38F984C296F6D230007A9B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38F984B296F6D230007A9B9 /* Preview Assets.xcassets */; };
 		F38F9856296F6D230007A9B9 /* Lab1_2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F9855296F6D230007A9B9 /* Lab1_2023Tests.swift */; };
 		F38F9860296F6D230007A9B9 /* Lab1_2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F985F296F6D230007A9B9 /* Lab1_2023UITests.swift */; };
 		F38F9862296F6D230007A9B9 /* Lab1_2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F9861296F6D230007A9B9 /* Lab1_2023UITestsLaunchTests.swift */; };
+		F38F986F296F821F0007A9B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F986E296F821F0007A9B9 /* MainView.swift */; };
+		F38F9870296F821F0007A9B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F986E296F821F0007A9B9 /* MainView.swift */; };
+		F38F9871296F821F0007A9B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F986E296F821F0007A9B9 /* MainView.swift */; };
+		F38F9873296F83D40007A9B9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F9872296F83D40007A9B9 /* SettingsView.swift */; };
+		F38F9874296F83D40007A9B9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F9872296F83D40007A9B9 /* SettingsView.swift */; };
+		F38F9875296F83D40007A9B9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38F9872296F83D40007A9B9 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		F38F9841296F6D210007A9B9 /* Lab1_2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1_2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38F9844296F6D210007A9B9 /* Lab1_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_2023App.swift; sourceTree = "<group>"; };
-		F38F9846296F6D210007A9B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F38F9846296F6D210007A9B9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F38F9848296F6D230007A9B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F38F984B296F6D230007A9B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F38F9851296F6D230007A9B9 /* Lab1_2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,8 @@
 		F38F985B296F6D230007A9B9 /* Lab1_2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38F985F296F6D230007A9B9 /* Lab1_2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_2023UITests.swift; sourceTree = "<group>"; };
 		F38F9861296F6D230007A9B9 /* Lab1_2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F38F986E296F821F0007A9B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F38F9872296F83D40007A9B9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				F38F9844296F6D210007A9B9 /* Lab1_2023App.swift */,
-				F38F9846296F6D210007A9B9 /* ContentView.swift */,
+				F38F9846296F6D210007A9B9 /* DetailView.swift */,
+				F38F986E296F821F0007A9B9 /* MainView.swift */,
+				F38F9872296F83D40007A9B9 /* SettingsView.swift */,
 				F38F9848296F6D230007A9B9 /* Assets.xcassets */,
 				F38F984A296F6D230007A9B9 /* Preview Content */,
 			);
@@ -257,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F38F9847296F6D210007A9B9 /* ContentView.swift in Sources */,
+				F38F9847296F6D210007A9B9 /* DetailView.swift in Sources */,
+				F38F9873296F83D40007A9B9 /* SettingsView.swift in Sources */,
+				F38F986F296F821F0007A9B9 /* MainView.swift in Sources */,
 				F38F9845296F6D210007A9B9 /* Lab1_2023App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38F9874296F83D40007A9B9 /* SettingsView.swift in Sources */,
 				F38F9856296F6D230007A9B9 /* Lab1_2023Tests.swift in Sources */,
+				F38F9870296F821F0007A9B9 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F38F9860296F6D230007A9B9 /* Lab1_2023UITests.swift in Sources */,
+				F38F9875296F83D40007A9B9 /* SettingsView.swift in Sources */,
+				F38F9871296F821F0007A9B9 /* MainView.swift in Sources */,
 				F38F9862296F6D230007A9B9 /* Lab1_2023UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

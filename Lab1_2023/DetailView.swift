@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DetailView: View {
     @State private var description = ""
     @State private var favorite = false
     var body: some View {
@@ -20,14 +20,28 @@ struct ContentView: View {
             Toggle(isOn: $favorite) {
                 Text("Favorite")
             }
-            TextEditor(text: $description)
+            TextEditor(text:
+                Binding(
+                    get: {
+                        description
+                    },
+                    set: {
+                        newValue in
+                        if newValue.count <= 150 {
+                            description = newValue
+                        }
+                    }
+                )
+            )
         }
         .padding()
+        Text(String(description.count))
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DetailView()
     }
 }
+
