@@ -6,17 +6,18 @@
 //
 
 import SwiftUI
-
 struct DetailView: View {
     @State private var description = ""
     @State private var favorite = false
+    @State var maxChars: Int
+    var colour: Color	
     var body: some View {
         VStack {
             Image(systemName: "square.and.arrow.up")
                 .resizable(resizingMode: .stretch)
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-                .background(favorite ? Color.yellow : Color.white)
+                .background(favorite ? colour : Color.white)
             Toggle(isOn: $favorite) {
                 Text("Favorite")
             }
@@ -27,7 +28,7 @@ struct DetailView: View {
                     },
                     set: {
                         newValue in
-                        if newValue.count <= 150 {
+                        if newValue.count <= maxChars {
                             description = newValue
                         }
                     }
@@ -41,7 +42,7 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        DetailView( maxChars: 150, colour: Color.yellow)
     }
 }
 
